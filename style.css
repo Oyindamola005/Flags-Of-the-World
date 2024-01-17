@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    gap: 16px;
+}
+.nav{
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+    margin-left: 16px;
+}
+.nav div {
+    padding: 8px 16px;
+    border-radius: 16px;
+    color: white;
+    background-color: rgb(130, 14, 14);
+    font-size: 0.75rem;
+}
+.bodycontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    flex: 0.5;
+    height: fit-content;
+    gap: 8px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+.bodycontainer h1 {
+    font: bolder;
+    font-weight: 700;
+    font-size: xx-large;
+    margin: 0px;
+    padding-left: 16px;
+    font-size: 3rem;
+}
+.bodycontainer p{
+    padding-left: 16px;
+    margin: 0px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(101, 99, 99);
+    line-height: 1.4;
+}
+.Container {
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+    margin: 0px;
+    flex: 1;
+    overflow: auto;
+    gap: 24px;
+   
+}
+#First {
+    display: table-row;
+    background-color: white;
+    overflow: hidden;
+    padding: 8px;
+    justify-items: center;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    flex: 1.5;
+    margin: 0px;
+    gap: 16px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+h2{
+    color: #11569e;
+    position: relative;
+    margin: 0px;
+    padding-bottom: 16px;
+    margin-left: 16px;
+}
+.List {
+    padding: 4px;
+    background-color: #eaeaea;
+    font-size: small;
+    font-display: 16px;
+    font-weight: 300;
+    color: rgb(41, 40, 40);
+    display: flex;
+    align-content: center;
+    position: sticky;
+    flex: 1;
+    margin-left: 16px;
+    border-radius: 8px;
+}
+.List p{
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    margin: 0px;
+    padding: 4px;
+}
+#Filter{
+    padding: 8px 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    font-size: small;
+    border: solid rgb(193, 189, 189);
+    border-radius: 8px;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    align-content: center;
+}
+#Filter p {
+    margin: 0px;
+}
+#Photos{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    position: relative;
+    color: #eaeaea;
+    flex: 1;
+    margin: 0px;
+}
+.Flags{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    flex: 1;
+    margin: 0px;
+}
+#ABC{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 60vh;
+    position: relative;
+    flex: 1.5;
+    gap: 16px;
+    margin: 0px;
+    
+}
+#TEXT{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 0px;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    margin: 0px;
+    margin-right:16px;
+
+}
+#TEXT img {
+    border-radius: 8px;
+    height: 120px;
+    margin: 0px;
+    width: 250px;
+    flex: 1;
+    
+}
+#TEXT p{
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(173, 1, 1);
+    font-style: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+}
+.Button{
+    padding: 0%;
+    background-color: #ebe4e4;
+    width: fit-content;
+    padding: 8px;
+    font-size: smaller;
+    color: rgb(81, 81, 81);
+}
+.SEE-MORE {
+    color: #11569e;
+    position: relative;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: solid #11569e;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+    width: 200px;
+}
+.SEE-MORE h4{
+    font-weight: 400;
+    font-size: small;
+    margin: 0px;
+}
+#Second {
+    display: flex;
+    flex-direction: column;
+    background-color: #e1ebf7;
+    padding-top: 16px;
+    padding-left: 16px;
+    height: 100vh;
+    float: right;
+    align-content: center;
+    gap: 16px;
+    overflow-y: auto;
+    overflow-x: auto;
+    flex: 1;
+}
+#Second h4{
+    color: #11569e;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1rem;
+    }
+.Button1{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: start;
+    margin: 0px;
+}
+.button-small{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    align-content: center;
+    gap: 24px;
+}
+#p1{
+padding: 12px 24px;
+background-color: green;
+color: white;
+align-items: center;
+border-radius: 4px;
+margin: 0px;
+align-content: center;
+text-align: center;
+width: fit-content;
+height: fit-content;
+}
+#p1 p{
+    font-weight: 400;
+    font-size: small;
+    margin: 0px;
+}
+#p2{
+    padding: 12px 24px;
+    background-color: rgb(250, 143, 28);
+    color: white;
+    align-items: center;
+    border-radius: 4px;
+    align-content: center;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    }
+    #p2 p{
+        font-weight: 400;
+        font-size: small;
+        margin: 0px;
+    }
+    #Puzzle{
+        height: fit-content;
+        width: 250px;
+        margin-top: 0px;
+        margin-bottom: 0%;
+        border-radius: 8px;
+        align-content: flex-start;
+        overflow: hidden;
+    }
+    #quiz-mini {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        margin: 0px;
+    }
+    .newp{
+        margin: 0px;
+        display: flex;
+        padding: 0px;
+        flex-direction: row;
+        color: rgb(65, 65, 65);
+        font-weight: 400;
+        font-size: 0.75rem;
+    }
